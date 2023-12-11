@@ -3,6 +3,25 @@
   "aliases": {
     "byteman": {
       "script-ref": "org.jboss.byteman:byteman:RELEASE"
+    },
+    "bmcheck": {
+      "script-ref": "org.jboss.byteman:byteman:RELEASE",
+      "main": "org.jboss.byteman.check.TestScript"
+    },
+    "bminstall": {
+      "script-ref": "org.jboss.byteman:byteman-install:RELEASE",
+      "dependencies": [
+        "org.jboss.byteman:byteman:RELEASE"
+      ],
+      "main": "org.jboss.byteman.agent.install.Install",
+      "enable-preview": false,
+      "java-agents": []
+    },
+    "bmsubmit": {
+      "script-ref": "org.jboss.byteman:byteman-submit:RELEASE",
+      "main": "org.jboss.byteman.agent.submit.Submit",
+      "enable-preview": false,
+      "java-agents": []
     }
   },
   "templates": {}
