@@ -45,7 +45,7 @@ All without requiring to install or setup byteman nor java.
 
 ## Install Byteman remotely
 
-To install byteman on a remote system you can use the `bminstall` command:
+To install Byteman on a remote system you can use the `bminstall` command:
 
 ```
 jbang bminstall@bytemanproject -b <pid>
