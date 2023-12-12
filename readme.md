@@ -5,7 +5,7 @@ This catalog enables using byteman via [jbang.dev](https://jbang.dev).
 The usecase for jbang with byteman is that you do not need to download/install
 byteman manually. Useful if exploring things on a new/remote system or in a container.
 
-## Run applications with jbang and byteman 
+## Run applications with Jbang and Byteman 
 
 To run a jar, maven artifact or jbang script with Byteman as agent:
 
