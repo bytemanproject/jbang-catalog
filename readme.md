@@ -53,7 +53,7 @@ jbang bminstall@bytemanproject -b <pid>
 
 ## Submit Byteman scripts remotely
 
-To submit byteman scripts to a remote system you can use the `bmsubmit` command:
+To submit Byteman scripts to a remote system you can use the `bmsubmit` command:
 
 ```
 jbang bmsubmit@bytemanproject myfile.btm
