@@ -51,7 +51,7 @@ To install byteman on a remote system you can use the `bminstall` command:
 jbang bminstall@bytemanproject -b <pid>
 ```
 
-## Submit byteman scripts remotely
+## Submit Byteman scripts remotely
 
 To submit byteman scripts to a remote system you can use the `bmsubmit` command:
 
