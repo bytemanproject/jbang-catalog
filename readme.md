@@ -61,7 +61,7 @@ jbang bmsubmit@bytemanproject myfile.btm
 
 ## Check byteman scripts
 
-To check your byteman scripts you can use the `bmcheck` command:
+To check your Byteman scripts you can use the `bmcheck` command:
 
 ``` 
 jbang bmcheck@bytemanproject myfile.btm
