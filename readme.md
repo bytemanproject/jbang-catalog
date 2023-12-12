@@ -39,7 +39,7 @@ Combining it all you can do this:
  jbang --javaagent=byteman@bytemanproject=boot:`jbang info classpath byteman@bytemanproject`,script:%{https://github.com/bytemanproject/byteman/raw/main/sample/scripts/FileMonitor.btm} jarviz@kordamp
 ```
 
-This runs `jarviz@kordamp` loads the `byteman@bytemanproject` as a javaagent, adds the necessary classpath to boot path and remotely fetches the FileMonitor.btm available in byteman main repo.
+This runs `jarviz@kordamp` loads the `byteman@bytemanproject` as a javaagent, adds the necessary classpath to boot path and remotely fetches the FileMonitor.btm available in Byteman main repo.
 
 All without requiring to install or setup byteman nor java.
 
