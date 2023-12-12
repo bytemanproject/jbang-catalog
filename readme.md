@@ -59,7 +59,7 @@ To submit Byteman scripts to a remote system you can use the `bmsubmit` command:
 jbang bmsubmit@bytemanproject myfile.btm
 ```
 
-## Check byteman scripts
+## Check Byteman scripts
 
 To check your Byteman scripts you can use the `bmcheck` command:
 
