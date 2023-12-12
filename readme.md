@@ -7,7 +7,7 @@ byteman manually. Useful if exploring things on a new/remote system or in a cont
 
 ## Run applications with jbang and byteman 
 
-To run a jar, maven artifact or jbang script with byteman as agent:
+To run a jar, maven artifact or jbang script with Byteman as agent:
 
 ```
 jbang --javaagent byteman@bytemanproject your.jar
